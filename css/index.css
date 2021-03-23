@@ -1,0 +1,39 @@
+@charset "utf-8";
+#tp {
+  background-color: whitesmoke;
+  height: 45px;
+}
+header {
+  background-color: aqua;
+  height: 120px;
+  width: 100%;
+}
+#main {
+  background-color: tomato;
+  height: 834px;
+  width: 100%;
+}
+#ticket {
+  background-color: teal;
+  height: 834px;
+  width: 100%;
+}
+#promotion {
+  background-color: gold;
+  height: 834px;
+  width: 100%;
+}
+#program {
+  background-color: gray;
+  height: 834px;
+  width: 100%;
+}
+#story {
+  background-color: green;
+  height: 834px;
+  width: 100%;
+}
+footer {
+  background-color: firebrick;
+  height: 338px;
+}
