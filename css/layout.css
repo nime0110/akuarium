@@ -1,0 +1,115 @@
+@charset "utf-8";
+.container {
+  margin: auto;
+  width: 1600px;
+}
+/* navibar start */
+#mainnb {display: none;}
+/* #mainnb {
+  background-color: black;
+}
+#mainnb ul li {
+}
+#mainnb ul li a{
+  display: block;
+  color: white;
+  background: url("/image/dot.png") no-repeat;
+  background-position: 160px;
+} */
+/* a hover하면 #id로 움직이는거 나중에 해놓기  */
+/* header start  */
+header {
+  background-color: rgb(0,0,0);
+  height: 166px;
+}
+header>#tp {
+  background-color: rgb(255,255,255);
+  height: 45px;
+  box-sizing: border-box;
+}
+header #tp>#topmenu_left li {
+  float: left;
+  margin-left: 30px;
+}
+header #tp>#topmenu_left li:first-child {
+  margin-left: 87px;
+}
+header #tp>#topmenu_right li {
+  float: right;
+  margin-right: 30px;
+}
+header #tp>#topmenu_right li:first-child {
+  margin-right: 57px;
+}
+header>#tp a {
+  font:12px/45px 'NotoSansKR-Regular';
+}
+header h1 a {
+  background:url("../image/logo.png") no-repeat;
+  display: block;
+  width: 168px; height: 91px;
+  text-indent: -10000px;
+  margin-left: 87px;
+  margin-top: 13px;
+}
+header #gnb ul li{
+  float: left; 
+  position: relative; left: 335px; top:-50px;
+  margin: 0px 56px;
+}
+header #gnb ul li a {
+  display: block;
+  font:18px/27px 'NotoSansKR-Regular';
+  color: white;
+}
+/* footer start  */
+#story #storyitem ul li img {
+  display: none;
+}
+footer {
+  background-color: rgb(24,24,24);
+  height: 260px;
+}
+footer a, footer address, footer li, footer span {
+  font: 11px/22px 'NotoSansKR-Light';
+  color: rgb(255,255,255);
+}
+footer #footbox {
+  overflow: hidden;
+}
+footer #footbox> #fbox_left {
+  float: left;
+  margin-top: 63px;
+  width: 608px; height: 154px;
+  box-sizing: border-box;
+}
+footer #footbox> #fbox_left > ul > li{
+  float: left;
+  margin: 0 9px;
+}
+footer #footbox> #fbox_left > ul >li:first-child {
+  margin-left: 23px;
+}
+footer #footbox> #fbox_left address {
+  margin-left: 23px;
+  clear: both;
+}
+footer #footbox> #fbox_left #fboxbottom {
+  margin-top: 19px;
+  display: flex;
+}
+footer #footbox> #fbox_left #fboxbottom p img {
+  margin-left: 28px;
+}
+footer #footbox> #fbox_left #fboxbottom ul {
+  margin-left: 18px;
+}
+footer #footbox> #fbox_right {
+  float: right;
+  width: 319px; height: 134px;
+  margin-top: 86px;
+}
+footer #footbox> #fbox_right #fboxicon {
+  float: right;
+  margin-bottom: 33px;
+} 
