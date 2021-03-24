@@ -2,36 +2,115 @@
 @import "layout.css";
 /* main start  */
 #main {
-  /* background:url("../image/mainimgmain.png") no-repeat; */
-  background-color: tomato;
+  background:url("../image/mainimgmain.png") no-repeat;
   height: 834px;
   width: 100%;
   position: relative;
 }
 #main #mainfont {
-  background-color: teal;
   width: 769px;
   height: 507px;
   position: absolute; top:112px;
-  /* background: url("../image/whale.png") no-repeat; */
+  padding-left: 66px;
+  background: url("../image/whale.png") no-repeat;
+  padding-top: 97px;
 }
-
-
-
-
-
-
-
-
-
-
-
+#main #mainfont img {
+  float: left;
+  margin-top: 2px;
+}
+#main #mainfont p:first-of-type {
+  font:20px/40px 'NotoSansKR-Medium';
+  margin-left: 36px;
+  color: rgb(255,255,255);
+}
+#main #mainfont h2 {
+  font:50px/66px 'NotoSansKR-Medium';
+  color: #ffffff;
+}
+#main #mainfont a {
+  display: block;
+  width: 247px; height: 48px;
+  text-align: center;
+  margin-top: 17px;
+  font:24px/48px 'NotoSansKR-Medium';
+  border: 1px solid rgb(255,255,255);
+  color: rgb(255,255,255);
+}
 /* ticket start */
 #ticket {
   background-color: teal;
-  height: 834px;
   width: 100%;
+  height: 834px;
+  position: relative;
+  overflow: hidden;
+  background:url(../image/bgticket.png) no-repeat;
 }
+#ticket #ticketfont {
+  float: left;
+  width: 626px; height: 665px;
+  position: absolute; top:21px;
+  padding-top: 205px;
+  padding-left: 111px;
+  background:url(../image/earth.png) no-repeat;
+}
+#ticket #ticketfont h2 {
+  font:40px/47px 'NotoSansKR-Medium';
+  color: rgb(255,255,255);
+
+}
+#ticket #ticketfont h2:first-of-type {
+  font:50px/89px 'NotoSansKR-Medium';
+}
+#ticket #ticketfont a {
+  display: block;
+  width: 247px; height: 48px;
+  text-align: center;
+  margin-top: 17px;
+  font:24px/48px 'NotoSansKR-Medium';
+  border: 1px solid rgb(255,255,255);
+  color: rgb(255,255,255);
+}
+#ticket #ticketright {
+  width: 839px; height: 661px;
+  margin-top: 104px;
+  background: url(../image/boxbox.png) no-repeat;
+  position: relative;
+}
+#ticket #ticketright #whitebox {
+  position: absolute; top:100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ticket #ticketright {
+  float: right;
+} 
+
+
+
+
+
+
+
+
+
+
 /* promotion start  */
 #promotion {
   background-color: gold;
