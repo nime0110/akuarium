@@ -15,3 +15,7 @@
   font-family: 'ink';
   src:url('../THEFACESHOP-INKLIPQUID.woff') format('woff');
 }
+@font-face {
+  font-family: 'NotoSansCJKkr-DemiLight';
+  src:url('../NotoSansCJKkr-DemiLight.woff') format('woff');
+}
