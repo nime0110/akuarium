@@ -4,8 +4,7 @@
   width: 1600px;
 }
 /* navibar start */
-#mainnb {display: none;}
-/* #mainnb {
+#mainnb {
   background-color: black;
 }
 #mainnb ul li {
@@ -15,8 +14,7 @@
   color: white;
   background: url("/image/dot.png") no-repeat;
   background-position: 160px;
-} */
-/* a hover하면 #id로 움직이는거 나중에 해놓기  */
+}
 /* header start  */
 header {
   background-color: rgb(0,0,0);
