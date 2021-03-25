@@ -144,7 +144,7 @@
 }
 #promotion #promoleft .promobox a {
   display: block;   width: 218px; height: 218px;
-  transition: 0.8s ease-in;
+  transition: 0.3s ease-in;
 }
 #promotion #promoleft .promobox a:hover {
   background-color: rgb(1, 118, 146);
@@ -245,48 +245,48 @@
   overflow: hidden;
 }
 #program #programright li div {
-  width: 205px; height: ;
+  width: 100%;
+  height: 100px;
+  position: absolute; bottom: -100px;
+  background: linear-gradient(0deg,rgba(0,0,0,0.8) 20%, 
+  rgba(0,0,0,0.7) 40%,  rgba(0,0,0,0.6) 60%, rgba(0,0,0,0.3) 80%, rgba(0,0,0,0) 100%);
+  transition: 1s ease;
 }
-/* background: linear-gradient(0deg,rgba(255,255,255,1) 30%, rgba(255,255,255,0) 100%); */
 #program #programright li div h2 {
   color:rgb(255,255,255);
   font: 26px/32px 'NotoSansKR-Regular';
   text-align: center;
-  
 }
 #program #programright li div p {
   font:14px/19px 'NotoSansKR-Light';
   color:rgb(255,255,255);
   text-align: center;
 }
-#program #programright ul li:first-child div h2 {
-  position: absolute;
-  bottom: 63px;
-  left: 42px;
-  display: none;
+
+#program #programright li div p, #program #programright li div h2 {
+  display: block;
 }
 #program #programright ul li:first-child div p {
   position: absolute;
   bottom: 21px;
   left: 49px;
-  display: none;
 }
-#program #programright ul li:hover div p,
-#program #programright ul li:hover div h2
+#program #programright ul li:hover div 
 {
+  position: absolute; bottom:0;
   display: block;
 }
 #program #programright ul li:nth-child(2) div h2 {
   position: absolute;
   bottom: 63px;
   left: 63px;
-  display: none;
+
 }
 #program #programright ul li:nth-child(2) div p {
   position: absolute;
   bottom: 21px;
   left: 43px;
-  display: none;
+
 }
 #program #programright ul li:hover div p,
 #program #programright ul li:hover div h2
@@ -297,13 +297,13 @@
   position: absolute;
   bottom: 63px;
   left: 65px;
-  display: none;
+
 }
 #program #programright ul li:last-child div p {
   position: absolute;
   bottom: 21px;
   left: 37px;
-  display: none;
+
 }
 #program #programright ul li:hover div p,
 #program #programright ul li:hover div h2
