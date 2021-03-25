@@ -55,7 +55,7 @@
   background:url(../image/earth.png) no-repeat;
 }
 #ticket #ticketfont h2 {
-  font:40px/47px 'NotoSansKR-Medium';
+  font:40px/47px 'NotoSansKR-Light';
   color: rgb(255,255,255);
 
 }
@@ -74,58 +74,286 @@
 #ticket #ticketright {
   width: 839px; height: 661px;
   margin-top: 104px;
-  background: url(../image/boxbox.png) no-repeat;
+  float: left;
+  margin-left: 648px;
+  background: url("../image/boxbox.png") no-repeat;
   position: relative;
 }
 #ticket #ticketright #whitebox {
-  position: absolute; top:100px;
+  position: absolute; top:127px; left:132px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#ticket #ticketright {
-  float: right;
-} 
-
-
-
-
-
-
-
-
-
-
+#ticket #ticketright #whitebox h2 {
+  font:33px/55px 'NotoSansKR-Medium';
+  color:rgb(9,17,75);
+  text-align: center;
+}
+#ticket #ticketright #whitebox p {
+  color:rgb(1, 118, 146);
+  text-align: center;
+  font:14px/21px 'NotoSansKR-Light';
+}
+#ticket #ticketright #whitebox span {
+  display: block;
+  font:24px/28px 'NotoSansKR-Medium';
+}
+#ticket #ticketright #bluebox {
+  width: 265px; height: 201px;
+  position: absolute; top:282px; right:109px;
+}
+#ticket #ticketright #bluebox h2 {
+  font:33px/55px 'NotoSansKR-Medium';
+  color:rgb(255,255,255);
+  text-align: center;
+}
+#ticket #ticketright #bluebox table {
+  width: 265px;
+  margin-top: 11px;
+}
+#ticket #ticketright #bluebox table tr td {
+  font:18px/35px 'NotoSansKR-Light';
+  color:rgb(255,255,255);
+}
 /* promotion start  */
 #promotion {
-  background-color: gold;
+  background-image: url("../image/background_promo.png");
   height: 834px;
   width: 100%;
+}
+#promotion #promoleft {
+  float: left;
+}
+#promotion #promoleft .promobox {
+  background-color: rgb(255,255,255,0.2);
+  width: 218px; height: 218px;
+  transform: rotate(45deg);
+  position: relative;
+}
+#promotion #promoleft .promobox img{
+  display: block;
+  position: absolute; top: 40%;left: 40%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+#promotion #promoleft .promobox p {
+  font:19px/30px 'NotoSansKR-Medium';
+  color:rgb(255,255,255);
+  display: block;
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+#promotion #promoleft .promobox a {
+  display: block;   width: 218px; height: 218px;
+  transition: 0.8s ease-in;
+}
+#promotion #promoleft .promobox a:hover {
+  background-color: rgb(1, 118, 146);
+}
+#promotion #promoleft #prb1 {
+  position: relative;
+  left: 218px; top: 144px;
+}
+#promotion #promoleft #prb1 p {
+  position: absolute;
+  top: 59%;
+  left: 62%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+#promotion #promoleft #prb2 {
+  position: relative;
+  left: 63px; top:81px;
+}
+#promotion #promoleft #prb3 {
+  position: relative;
+  left: 373px; top:-137px;
+}
+#promotion #promoleft #prb3 p {
+  position: absolute;
+  top: 56%;
+  left: 56%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+#promotion #promoleft #prb4 {
+  position: relative;
+  left: 218px;top: -200px;
+}
+#promotion #promofont {
+  float: right;
+  width: 663px;
+  height: 651px;
+  background:url("../image/promoicon.png") no-repeat;
+  padding-top: 272px;
+  padding-left: 150px;
+  box-sizing: border-box;
+}
+#promotion #promofont h2 {
+  font:40px/47px 'NotoSansKR-Light';
+  color: rgb(255,255,255);
+}
+#promotion #promofont h2:first-of-type {
+  font:50px/89px 'NotoSansKR-Medium';
+}
+#promotion #promofont a {
+  display: block;
+  width: 247px; height: 48px;
+  text-align: center;
+  margin-top: 17px;
+  font:24px/48px 'NotoSansKR-Medium';
+  border: 1px solid rgb(255,255,255);
+  color: rgb(255,255,255);
 }
 /* program start  */
 #program {
-  background-color: gray;
+  background: url("../image/bgprogram.png");
   height: 834px;
   width: 100%;
 }
+#program #programfont {
+  clear: both;
+  float: left;
+  background: url("../image/programheart2.png") no-repeat;
+  width: 479px;
+  height: 419px;
+  margin-top: 195px;
+  padding-left: 108px;
+  padding-top: 62px;
+}
+#program #programfont h2 {
+  font:40px/47px 'NotoSansKR-Light';
+  color: rgb(255,255,255);
+}
+#program #programfont h2:first-of-type {
+  font:50px/89px 'NotoSansKR-Medium';
+}
+#program #programfont a {
+  display: block;
+  width: 247px; height: 48px;
+  text-align: center;
+  margin-top: 17px;
+  font:24px/48px 'NotoSansKR-Medium';
+  border: 1px solid rgb(255,255,255);
+  color: rgb(255,255,255);
+}
+#program #programright ul{
+  margin-left: 680px;
+  padding-top: 209px; 
+}
+#program #programright li {
+  margin-right: 7px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+#program #programright li div {
+  width: 205px; height: ;
+}
+/* background: linear-gradient(0deg,rgba(255,255,255,1) 30%, rgba(255,255,255,0) 100%); */
+#program #programright li div h2 {
+  color:rgb(255,255,255);
+  font: 26px/32px 'NotoSansKR-Regular';
+  text-align: center;
+  
+}
+#program #programright li div p {
+  font:14px/19px 'NotoSansKR-Light';
+  color:rgb(255,255,255);
+  text-align: center;
+}
+#program #programright ul li:first-child div h2 {
+  position: absolute;
+  bottom: 63px;
+  left: 42px;
+  display: none;
+}
+#program #programright ul li:first-child div p {
+  position: absolute;
+  bottom: 21px;
+  left: 49px;
+  display: none;
+}
+#program #programright ul li:hover div p,
+#program #programright ul li:hover div h2
+{
+  display: block;
+}
+#program #programright ul li:nth-child(2) div h2 {
+  position: absolute;
+  bottom: 63px;
+  left: 63px;
+  display: none;
+}
+#program #programright ul li:nth-child(2) div p {
+  position: absolute;
+  bottom: 21px;
+  left: 43px;
+  display: none;
+}
+#program #programright ul li:hover div p,
+#program #programright ul li:hover div h2
+{
+  display: block;
+}
+#program #programright ul li:last-child div h2 {
+  position: absolute;
+  bottom: 63px;
+  left: 65px;
+  display: none;
+}
+#program #programright ul li:last-child div p {
+  position: absolute;
+  bottom: 21px;
+  left: 37px;
+  display: none;
+}
+#program #programright ul li:hover div p,
+#program #programright ul li:hover div h2
+{
+  display: block;
+}
+
+
 /* story start  */
 #story {
   background-color: green;
   height: 834px;
   width: 100%;
+}
+#story h2 {
+  text-align: center;
+  color: rgb(255,255,255);
+  font:50px/89px 'NotoSansKR-Medium';
+}
+#story #storyitem {
+  margin-left: 361px;
+  margin-top: 76px;
+}
+#story #storyitem ul li {
+  margin-right: 37px;
+  float: left;
+  background-color: tomato;
+}
+#story #storyitem ul li:last-child {
+  margin-right: 0px;
+}
+#story #storyitem ul li>h2 {
+  font:47px/58px 'ink';
+  text-align: center;
+}
+#story #storyitem ul li>p.storydesc {
+  font:14px/23px 'NotoSansKR-Regular';
+  color: rgb(255,255,255);
+  text-align: center;
+}
+#story #storyitem ul li>p.storyclick a {
+  font:13px/21px 'NotoSansKR-Regular';
+  color: rgb(255,255,255);
+  display: block;
+  width: 122px;
+  border: 1px solid white;
+  text-align: center;
+  margin-left: 74px;
+}
+#story #storyitem ul li:first-child {
+  background-color: rgb(1, 118, 146);
+
 }
