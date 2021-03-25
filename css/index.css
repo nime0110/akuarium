@@ -303,15 +303,18 @@
   color: rgb(255,255,255);
   font:50px/89px 'NotoSansKR-Medium';
 }
+#story #storymain {
+  padding-top: 63px;
+}
 #story #storyitem {
   margin-left: 361px;
-  margin-top: 171px;
+  margin-top: 75px;
 }
 #story #storyitem ul li {
   margin-right: 37px;
   float: left;
   height: 425px;
-  width: 275px;
+  width: 274px;
   background-color: rgb(0,0,0);
 }
 #story #storyitem ul li:last-child {
@@ -323,11 +326,10 @@
 }
 #story #storyitem ul li p img{
   display: block;
-    border:2px solid transparent;
 }
 #story #storyitem ul li:hover img {
   border: 2px solid rgb(0, 167, 207);
-  opacity: 0.5;
+  opacity: 0.3;
 }
 #story #storyitem ul li>p.storydesc {
   font:14px/23px 'NotoSansKR-Regular';
