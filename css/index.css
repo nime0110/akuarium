@@ -250,7 +250,7 @@
   position: absolute; bottom: -100px;
   background: linear-gradient(0deg,rgba(0,0,0,0.8) 20%, 
   rgba(0,0,0,0.7) 40%,  rgba(0,0,0,0.6) 60%, rgba(0,0,0,0.3) 80%, rgba(0,0,0,0) 100%);
-  transition: 1s ease;
+  transition: 1.3s ease;
 }
 #program #programright li div h2 {
   color:rgb(255,255,255);
@@ -262,25 +262,18 @@
   color:rgb(255,255,255);
   text-align: center;
 }
-
-#program #programright li div p, #program #programright li div h2 {
-  display: block;
-}
 #program #programright ul li:first-child div p {
-  position: absolute;
   bottom: 21px;
   left: 49px;
 }
 #program #programright ul li:hover div 
 {
   position: absolute; bottom:0;
-  display: block;
 }
 #program #programright ul li:nth-child(2) div h2 {
   position: absolute;
   bottom: 63px;
   left: 63px;
-
 }
 #program #programright ul li:nth-child(2) div p {
   position: absolute;
@@ -288,33 +281,20 @@
   left: 43px;
 
 }
-#program #programright ul li:hover div p,
-#program #programright ul li:hover div h2
-{
-  display: block;
-}
 #program #programright ul li:last-child div h2 {
   position: absolute;
   bottom: 63px;
   left: 65px;
-
 }
 #program #programright ul li:last-child div p {
   position: absolute;
   bottom: 21px;
   left: 37px;
-
 }
-#program #programright ul li:hover div p,
-#program #programright ul li:hover div h2
-{
-  display: block;
-}
-
 
 /* story start  */
 #story {
-  background-color: green;
+  background-image: url("../image/bgstory.png");
   height: 834px;
   width: 100%;
 }
@@ -325,12 +305,14 @@
 }
 #story #storyitem {
   margin-left: 361px;
-  margin-top: 76px;
+  margin-top: 171px;
 }
 #story #storyitem ul li {
   margin-right: 37px;
   float: left;
-  background-color: tomato;
+  height: 425px;
+  width: 275px;
+  background-color: rgb(0,0,0);
 }
 #story #storyitem ul li:last-child {
   margin-right: 0px;
@@ -338,6 +320,14 @@
 #story #storyitem ul li>h2 {
   font:47px/58px 'ink';
   text-align: center;
+}
+#story #storyitem ul li p img{
+  display: block;
+    border:2px solid transparent;
+}
+#story #storyitem ul li:hover img {
+  border: 2px solid rgb(0, 167, 207);
+  opacity: 0.5;
 }
 #story #storyitem ul li>p.storydesc {
   font:14px/23px 'NotoSansKR-Regular';
@@ -353,7 +343,9 @@
   text-align: center;
   margin-left: 74px;
 }
-#story #storyitem ul li:first-child {
-  background-color: rgb(1, 118, 146);
-
+#story #storyitem ul li>p.storydesc,
+#story #storyitem ul li>p.storyclick,
+#story #storyitem ul li>h2 {
+  position: relative;
+  bottom:247px;
 }
