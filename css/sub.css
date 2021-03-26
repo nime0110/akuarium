@@ -1,2 +1,175 @@
 @charset "utf-8";
-@import "layout.css";
+.container {
+  margin: auto;
+  width: 1600px;
+}
+#tp {
+  background-color: rgb(255,255,255);
+  height: 45px;
+  width: 100%;
+}
+header {
+  background-color: rgb(0, 0, 0, 0);
+  position: absolute;
+  height: 160px;
+  width: 100%;
+  border-bottom: 1px solid rgb(103,103,104);
+}
+#topmenu_left li {
+  float: left;
+  margin-left: 30px;
+}
+#topmenu_left li:first-child {
+  margin-left: 87px;
+}
+#topmenu_right li {
+  float: right;
+  margin-right: 30px;
+}
+#topmenu_right li:first-child {
+  margin-right: 57px;
+}
+#tp a {
+  font:12px/45px 'NotoSansKR-Regular';
+}
+#headgnb {
+  margin-left: 153px;
+}
+
+
+
+
+header h1 a {
+  background:url("../image/logo.png") no-repeat;
+  display: block;
+  width: 168px; height: 91px;
+  text-indent: -10000px;
+  margin-left: 87px;
+  margin-top: 13px;
+}
+header #gnb {
+  position: relative; left: 335px; top:-50px;
+}
+header #gnb>ul>li{
+  float: left;
+  position: relative; 
+  margin: 0px 24px;
+  height: 60px;
+  padding: 0px 30px;
+}
+header #gnb ul>li>a {
+  display: block; 
+  font:18px/27px 'NotoSansKR-Regular';
+  color: white;
+}
+/* sub  */
+header #gnb ul>li > .sub {
+  display: none;
+  position: absolute;
+  top:60px; right: 0px;
+  background-color: rgba(0,0,0,0.5);
+  box-sizing: border-box;
+  height: 304px;
+}
+header #gnb ul li .sub>li {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+}
+
+header #gnb ul li .sub > li > a {
+  font: 14px/14px 'NotosansKR-Light';
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: block;
+  border-bottom: 1px solid transparent;
+}
+header #gnb ul li:hover .sub  {
+  display: block;
+}
+header #gnb ul li .sub > li:hover a {
+  border-bottom: 1px solid rgb(255, 255, 255);
+  display: inline-block;
+}
+#contents {
+  background-color: bisque;
+  height: 3250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer start  */
+footer {
+  background-color: rgb(24,24,24);
+  height: 260px;
+}
+footer a, footer address, footer li, footer span {
+  font: 11px/22px 'NotoSansKR-Light';
+  color: rgb(255,255,255);
+}
+footer #footbox {
+  overflow: hidden;
+}
+footer #footbox> #fbox_left {
+  float: left;
+  margin-top: 63px;
+  width: 608px; height: 154px;
+  box-sizing: border-box;
+}
+footer #footbox> #fbox_left > ul > li{
+  float: left;
+  margin: 0 9px;
+}
+footer #footbox> #fbox_left > ul >li:first-child {
+  margin-left: 23px;
+}
+footer #footbox> #fbox_left address {
+  margin-left: 23px;
+  clear: both;
+}
+footer #footbox> #fbox_left #fboxbottom {
+  margin-top: 19px;
+  display: flex;
+}
+footer #footbox> #fbox_left #fboxbottom p img {
+  margin-left: 28px;
+}
+footer #footbox> #fbox_left #fboxbottom ul {
+  margin-left: 18px;
+}
+footer #footbox> #fbox_right {
+  float: right;
+  width: 319px; height: 134px;
+  margin-top: 86px;
+}
+footer #footbox> #fbox_right #fboxicon {
+  float: right;
+  margin-bottom: 33px;
+} 
