@@ -3,14 +3,14 @@
 /* main start  */
 #main {
   background:url("../image/mainimgmain.png") no-repeat;
-  height: 834px;
+  height: 955px;
   width: 100%;
   position: relative;
 }
 #main #mainfont {
   width: 769px;
   height: 507px;
-  position: absolute; top:112px;
+  position: absolute; top:218px;
   padding-left: 66px;
   background: url("../image/whale.png") no-repeat;
   padding-top: 97px;
@@ -41,18 +41,18 @@
 #ticket {
   background-color: teal;
   width: 100%;
-  height: 834px;
+  height: 955px;
   position: relative;
   overflow: hidden;
-  background:url(../image/bgticket.png) no-repeat;
+  background:url("../image/bgticket1.png") no-repeat;
 }
 #ticket #ticketfont {
   float: left;
   width: 626px; height: 665px;
-  position: absolute; top:21px;
+  position: absolute; top:142px;
   padding-top: 205px;
   padding-left: 111px;
-  background:url(../image/earth.png) no-repeat;
+  background:url("../image/earth.png") no-repeat;
 }
 #ticket #ticketfont h2 {
   font:40px/47px 'NotoSansKR-Light';
@@ -73,7 +73,7 @@
 }
 #ticket #ticketright {
   width: 839px; height: 661px;
-  margin-top: 104px;
+  margin-top: 225px;
   float: left;
   margin-left: 648px;
   background: url("../image/boxbox.png") no-repeat;
@@ -115,12 +115,13 @@
 }
 /* promotion start  */
 #promotion {
-  background-image: url("../image/background_promo.png");
-  height: 834px;
+  background-image: url("../image/background_promo2.png");
+  height: 955px;
   width: 100%;
 }
 #promotion #promoleft {
   float: left;
+  margin-top: 121px;
 }
 #promotion #promoleft .promobox {
   background-color: rgb(255,255,255,0.2);
@@ -147,7 +148,7 @@
   transition: 0.3s ease-in;
 }
 #promotion #promoleft .promobox a:hover {
-  background-color: rgb(1, 118, 146);
+  background-color: rgb(28, 118, 146);
 }
 #promotion #promoleft #prb1 {
   position: relative;
@@ -182,6 +183,7 @@
   width: 663px;
   height: 651px;
   background:url("../image/promoicon.png") no-repeat;
+  margin-top: 121px;
   padding-top: 272px;
   padding-left: 150px;
   box-sizing: border-box;
@@ -204,8 +206,8 @@
 }
 /* program start  */
 #program {
-  background: url("../image/bgprogram.png");
-  height: 834px;
+  background: url("../image/bgprogram2.png");
+  height: 955px;
   width: 100%;
 }
 #program #programfont {
@@ -214,7 +216,7 @@
   background: url("../image/programheart2.png") no-repeat;
   width: 479px;
   height: 419px;
-  margin-top: 195px;
+  margin-top: 316px;
   padding-left: 108px;
   padding-top: 62px;
 }
@@ -236,7 +238,7 @@
 }
 #program #programright ul{
   margin-left: 680px;
-  padding-top: 209px; 
+  padding-top: 330px; 
 }
 #program #programright li {
   margin-right: 7px;
@@ -294,8 +296,8 @@
 
 /* story start  */
 #story {
-  background-image: url("../image/bgstory.png");
-  height: 834px;
+  background-image: url("../image/bgstory4.png");
+  height: 955px;
   width: 100%;
 }
 #story h2 {
@@ -304,7 +306,7 @@
   font:50px/89px 'NotoSansKR-Medium';
 }
 #story #storymain {
-  padding-top: 63px;
+  padding-top: 190px;
 }
 #story #storyitem {
   margin-left: 361px;
@@ -346,10 +348,11 @@
   border: 1px solid white;
   text-align: center;
   margin-left: 74px;
+  margin-top: 16px;
 }
 #story #storyitem ul li>p.storydesc,
 #story #storyitem ul li>p.storyclick,
 #story #storyitem ul li>h2 {
   position: relative;
-  bottom:247px;
+  bottom:270px;
 }
