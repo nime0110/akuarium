@@ -5,42 +5,74 @@
 }
 /* navibar start */
 #mainnb {
-  background-color: black;
-}
-#mainnb ul li {
+  position: fixed; top:50%; right: 1%;
+  z-index: 100;
+  width: auto;
 }
 #mainnb ul li a{
   display: block;
+  height: 31px; width: auto;
+  padding-right: 31px;
+  background: url("/image/dot.png") no-repeat right;
+  /* border: 3px solid red; */
+}
+#mainnb ul li a span {
+  display: block;
   color: white;
-  background: url("/image/dot.png") no-repeat;
-  background-position: 160px;
+  font:16px/31px 'NotoSansKR-Light';
+  display: none;
+  padding-right: 15px;
+}
+#mainnb ul li a:hover span{
+  display: block;
+}
+#mainnb ul li:first-child a:hover {
+  background: url("/image/navicon1.png") no-repeat right;
+}
+#mainnb ul li:nth-child(2) a:hover {
+  background: url("/image/navicon2.png") no-repeat right;
+}
+#mainnb ul li:nth-child(3) a:hover {
+  background: url("/image/navicon3.png") no-repeat right;
+}
+#mainnb ul li:nth-child(4) a:hover {
+  background: url("/image/navicon4.png") no-repeat right;
+}
+#mainnb ul li:last-child a:hover {
+  background: url("/image/navicon5.png") no-repeat right;
 }
 /* header start  */
-header {
-  background-color: rgb(0,0,0);
-  height: 166px;
-}
-header>#tp {
+#tp {
   background-color: rgb(255,255,255);
   height: 45px;
-  box-sizing: border-box;
+  width: 100%;
 }
-header #tp>#topmenu_left li {
+header {
+  position: fixed; top:0; left: 0;
+  height: 160px;
+  width: 100%;
+  border-bottom: 1px solid rgb(103,103,104);
+  z-index: 100;
+}
+#topmenu_left li {
   float: left;
   margin-left: 30px;
 }
-header #tp>#topmenu_left li:first-child {
+#topmenu_left li:first-child {
   margin-left: 87px;
 }
-header #tp>#topmenu_right li {
+#topmenu_right li {
   float: right;
   margin-right: 30px;
 }
-header #tp>#topmenu_right li:first-child {
+#topmenu_right li:first-child {
   margin-right: 57px;
 }
-header>#tp a {
+#tp a {
   font:12px/45px 'NotoSansKR-Regular';
+}
+#headgnb {
+  margin-left: 153px;
 }
 header h1 a {
   background:url("../image/logo.png") no-repeat;
@@ -60,6 +92,20 @@ header #gnb ul li a {
   font:18px/27px 'NotoSansKR-Regular';
   color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* footer start  */
 footer {
   background-color: rgb(24,24,24);
