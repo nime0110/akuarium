@@ -327,8 +327,10 @@
 #story #storyitem ul li p img{
   display: block;
 }
-#story #storyitem ul li:hover img {
+#story #storyitem ul li:hover {
   border: 2px solid rgb(0, 167, 207);
+}
+#story #storyitem ul li:hover img {
   opacity: 0.3;
 }
 #story #storyitem ul li>p.storydesc {
