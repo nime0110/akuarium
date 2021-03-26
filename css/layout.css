@@ -13,7 +13,7 @@
   display: block;
   height: 31px; width: auto;
   padding-right: 31px;
-  background: url("/image/dot.png") no-repeat right;
+  background: url('../image/dot.png') no-repeat right;
   /* border: 3px solid red; */
 }
 #mainnb ul li a span {
@@ -27,19 +27,19 @@
   display: block;
 }
 #mainnb ul li:first-child a:hover {
-  background: url("/image/navicon1.png") no-repeat right;
+  background: url('../image/navicon1.png') no-repeat right;
 }
 #mainnb ul li:nth-child(2) a:hover {
-  background: url("/image/navicon2.png") no-repeat right;
+  background: url('../image/navicon2.png') no-repeat right;
 }
 #mainnb ul li:nth-child(3) a:hover {
-  background: url("/image/navicon3.png") no-repeat right;
+  background: url('../image/navicon3.png') no-repeat right;
 }
 #mainnb ul li:nth-child(4) a:hover {
-  background: url("/image/navicon4.png") no-repeat right;
+  background: url('../image/navicon4.png') no-repeat right;
 }
 #mainnb ul li:last-child a:hover {
-  background: url("/image/navicon5.png") no-repeat right;
+  background: url('../image/navicon5.png') no-repeat right;
 }
 /* header start  */
 #tp {
