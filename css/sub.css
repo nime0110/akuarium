@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import "layout.css";
 .container {
   margin: auto;
   width: 1600px;
@@ -35,11 +36,7 @@ header {
 #headgnb {
   margin-left: 153px;
 }
-
-
-
-
-header h1 a {
+header> h1 a {
   background:url("../image/logo.png") no-repeat;
   display: block;
   width: 168px; height: 91px;
@@ -47,10 +44,10 @@ header h1 a {
   margin-left: 87px;
   margin-top: 13px;
 }
-header #gnb {
+header> #gnb {
   position: relative; left: 335px; top:-50px;
 }
-header #gnb>ul>li{
+header> #gnb>ul>li{
   float: left;
   position: relative; 
   margin: 0px 24px;
@@ -97,79 +94,57 @@ header #gnb ul li .sub > li:hover a {
   height: 3250px;
 }
 
+/* main */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* footer start  */
-footer {
-  background-color: rgb(24,24,24);
-  height: 260px;
+#mainVisual {
+  width: 100%; height: 552px;
+  background:url(../image/sub/main.png) no-repeat;
 }
-footer a, footer address, footer li, footer span {
-  font: 11px/22px 'NotoSansKR-Light';
-  color: rgb(255,255,255);
+#mainVisual > h1 {
+  padding-top: 400px;
 }
-footer #footbox {
-  overflow: hidden;
+#menuNav ul {
+  position: absolute; right:50%; top: 45%;}
+
+#contents #akuarium #box1 {
+  height: 484px;
+  background-color: brown;
 }
-footer #footbox> #fbox_left {
-  float: left;
-  margin-top: 63px;
-  width: 608px; height: 154px;
-  box-sizing: border-box;
+
+#contents #akuarium #box2 {
+  height: 547px;
+  background-image: url("../image/sub/banner.png");
 }
-footer #footbox> #fbox_left > ul > li{
-  float: left;
-  margin: 0 9px;
+#contents #akuarium #box3 {
+  height: 702px;
+  background-color: cadetblue;
 }
-footer #footbox> #fbox_left > ul >li:first-child {
-  margin-left: 23px;
+#contents #akuarium #box4 {
+  height: 690px;
+  background-color: darkgrey;
 }
-footer #footbox> #fbox_left address {
-  margin-left: 23px;
-  clear: both;
+#contents #akuarium #box5 {
+  height: 659px;
+  background-color: indianred;
 }
-footer #footbox> #fbox_left #fboxbottom {
-  margin-top: 19px;
-  display: flex;
-}
-footer #footbox> #fbox_left #fboxbottom p img {
-  margin-left: 28px;
-}
-footer #footbox> #fbox_left #fboxbottom ul {
-  margin-left: 18px;
-}
-footer #footbox> #fbox_right {
-  float: right;
-  width: 319px; height: 134px;
-  margin-top: 86px;
-}
-footer #footbox> #fbox_right #fboxicon {
-  float: right;
-  margin-bottom: 33px;
-} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
