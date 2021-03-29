@@ -96,7 +96,7 @@ header #gnb ul li .sub > li:hover a {
 #mainVisual {
   overflow: hidden;
   width: 100%; height: 552px;
-  background: url('/image/sub/main.png');
+  background: url('../image/sub/main.png');
 }
 #mainVisual > h2 {
   margin-top: 276px;
@@ -115,6 +115,9 @@ header #gnb ul li .sub > li:hover a {
   margin-right: 2px;
   float: left;
 }
+#menuNav ul li:hover {
+  background-color: white;
+}
 #menuNav ul li:first-child {
   background-color: rgba(255,255,255);
 }
@@ -123,6 +126,9 @@ header #gnb ul li .sub > li:hover a {
 #menuNav ul li:nth-child(4) a
 {
   color: white;
+}
+#menuNav ul li:hover a {
+  color: black;
 }
 #menuNav ul li a {
   display: block;
