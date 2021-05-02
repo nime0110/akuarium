@@ -95,7 +95,7 @@ header #gnb ul li .sub > li:hover a {
 
 #mainVisual {
   width: 100%; height: 552px;
-  background: url('/image/sub/main.png');
+  background: url('../image/sub/main.png');
 }
 #mainVisual > h1 {
   position: relative; top:276px; 
