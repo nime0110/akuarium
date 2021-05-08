@@ -329,11 +329,11 @@
 #story #storyitem ul li p img{
   display: block;
 }
-#story #storyitem ul li:hover {
-  border: 2px solid rgb(0, 167, 207);
-}
 #story #storyitem ul li:hover img {
   opacity: 0.3;
+}
+#story #storyitem ul li:hover{
+  box-shadow: 0 0 0 2px rgb(0,167,207);
 }
 #story #storyitem ul li>p.storydesc {
   font:14px/23px 'NotoSansKR-Regular';
