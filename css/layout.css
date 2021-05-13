@@ -23,22 +23,27 @@
   display: none;
   padding-right: 15px;
 }
-#mainnb ul li a:hover span{
+#mainnb ul li a:hover span {
   display: block;
 }
-#mainnb ul li:first-child a:hover {
+#mainnb ul li:first-child a:hover,
+#mainnb ul li:first-child a.on {
   background: url('../image/navicon1.png') no-repeat right;
 }
-#mainnb ul li:nth-child(2) a:hover {
+#mainnb ul li:nth-child(2) a:hover,
+#mainnb ul li:nth-child(2) a.on {
   background: url('../image/navicon2.png') no-repeat right;
 }
-#mainnb ul li:nth-child(3) a:hover {
+#mainnb ul li:nth-child(3) a:hover,
+#mainnb ul li:nth-child(3) a.on {
   background: url('../image/navicon3.png') no-repeat right;
 }
-#mainnb ul li:nth-child(4) a:hover {
+#mainnb ul li:nth-child(4) a:hover,
+#mainnb ul li:nth-child(4) a.on {
   background: url('../image/navicon4.png') no-repeat right;
 }
-#mainnb ul li:last-child a:hover {
+#mainnb ul li:last-child a:hover,
+#mainnb ul li:last-child a.on {
   background: url('../image/navicon5.png') no-repeat right;
 }
 /* header start  */
