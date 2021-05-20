@@ -12,7 +12,7 @@
   height: 507px;
   position: absolute; top:218px;
   padding-left: 66px;
-  background: url("../image/whale.png") no-repeat;
+  /* background: url("../image/whale.png") no-repeat; */
   padding-top: 97px;
 }
 #main #mainfont img {
