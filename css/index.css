@@ -6,6 +6,8 @@
   height: 955px;
   width: 100%;
   position: relative;
+  background-size: cover;
+  background-position: center;
 }
 #main #mainfont {
   width: 769px;
@@ -45,6 +47,7 @@
   position: relative;
   overflow: hidden;
   background:url("../image/bgticket1.png") no-repeat;
+  background-size: cover;
 }
 #ticket #ticketfont {
   float: left;
@@ -118,6 +121,7 @@
   background-image: url("../image/background_promo2.png");
   height: 955px;
   width: 100%;
+  background-size: cover;
 }
 #promotion #promoleft {
   float: left;
@@ -209,6 +213,7 @@
   background: url("../image/bgprogram2.png");
   height: 955px;
   width: 100%;
+  background-size: cover;
 }
 #program #programfont {
   clear: both;
@@ -299,6 +304,7 @@
   background-image: url("../image/bgstory4.png");
   height: 955px;
   width: 100%;
+  background-size: cover;
 }
 #story h2 {
   text-align: center;
