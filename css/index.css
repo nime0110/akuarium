@@ -327,6 +327,7 @@
   height: 425px;
   width: 274px;
   background-color: rgb(0,0,0);
+  transition:  0.4s ease-in;
 }
 #story #storyitem ul li:last-child {
   margin-right: 0px;
